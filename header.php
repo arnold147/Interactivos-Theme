@@ -34,10 +34,9 @@
 	</div>
 	
 <header class="container">
-		<?php the_custom_logo(); ?>
-			
-	
+		<?php the_custom_logo(); ?>	
 </header>
+
 	<?php 
 	if (has_nav_menu('menu')){
 		wp_nav_menu( array( 
