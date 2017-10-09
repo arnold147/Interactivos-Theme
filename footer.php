@@ -1,6 +1,5 @@
-<div id="footer" class="animated fadeInUp duration2 eds-on-scroll">
+<div id="footer">
 	<div class="container">
-		<img class="logo-footer" src="/wp-content/uploads/2017/10/logo-footer.jpg"/>
 		
 		<div class="datos-footer">
 				<div class="redes-footer">
@@ -31,16 +30,6 @@
 <a rel="nofollow" title="Diseño De Paginas Web Bogota" target="_self" href="http://interactivos123.com/">Diseño Páginas Web Bogotá <i class="fa fa-lightbulb-o" aria-hidden="true"></i></a>
 </div>
 <?php wp_footer(); ?>
-
-<script type="text/javascript">   
-
-jQuery('.menu-btn').click(function(){
-	jQuery('html').toggleClass('menu-open');
-});
-
-</script>
-
-
-  
+ 
 </body>
 </html>
