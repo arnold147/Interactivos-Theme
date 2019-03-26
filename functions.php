@@ -27,17 +27,14 @@ function interactivos_setup() {
 	add_theme_support( 'custom-logo', array(
 		'flex-width' => true,
 	) );
+	
+	add_theme_support( 'header-footer-elementor' );
 }
 add_action( 'after_setup_theme', 'interactivos_setup' );
 
 
 // Agregar soporte para Post Thumbnails 
 add_theme_support( 'post-thumbnails' );
-
-
-// Remover el auto corrector de Tags del editor de contenido y agregarlo con otra prioridad de carga
-remove_filter( 'the_content', 'wpautop' );
-add_filter( 'the_content', 'wpautop' , 13);      
 
 
 // WordPress Titles
