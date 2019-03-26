@@ -39,77 +39,7 @@ h1,h2,h3,h4{
 /* ================================== */ 
 /* ======= HEADER PRINCIPAL ========= */
 /* ================================== */ 
-/* Top info */
-.bar-top {
-    background: #bb0724;
-	color:#fff;
-	padding: 7px 0;
-}
-.bar-top a{
-	color:#fff; 
-	margin:0 2px;
-}
-.bar-top .container {
-    display: flex;
-    justify-content: space-between;
-	align-items:center;
-}
-.wrap-top span.tel-top {
-    margin-left: 30px;
-}
-.redes-top i {
-    background: #fff;
-    border-radius: 50%;
-    height: 24px;
-    width: 24px;
-    text-align: center;
-    line-height: 1.7;
-    color: #bb0724;
-    font-size: 15px;
-}
-.redes-top i:hover{
-	background:transparent;
-	color:#fff;
-}
-/* Stykie */
-.stykie-header  .wrap-top {
-    position: fixed;
-    z-index: 9999;
-    width: 100%;
-	animation:fadeMenu .5s ;
-}  
-@keyframes fadeMenu{
-	0%{
-		opacity:0;
-		top:-50px;
-	}
-	100%{
-		opacity:1;
-		top:0px;
-	}
-}
-.stykie-header header.container {
-	display:none;
-}
-  
-/* Header */
-.wrap-top {
-	position:relative;
-}
-header.container {
-    position: relative;
-	padding: 10px 15px;
-	min-height:50px;
-}
-header .sidebar-top1 {
-  padding-top: 50px;
-}
-img.custom-logo {
-    margin: 0 auto;
-    display: block;
-    max-width: 250px;
-    height: auto;
-}
+
 /* Menu */
 html.menu-open {
     overflow: hidden;
@@ -152,29 +82,7 @@ nav.menu-principal-container {
     font-weight: 300;
     font-size: .8em;
 }
-/* Sistema grid */
-.container{
-	margin:0 auto;
-	max-width:1170px;
-	width:100%;
-	box-sizing: border-box;
-	padding:0 15px;
-}
-.div-flex{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-	box-sizing:border-box;
-}
-.div-flex > div{
-	padding:0 15px; 
-	box-sizing: border-box;
-}
-.col-10{width:10%;}
-.col-30{width:30%;}
-.col-33{width:33%;}
-.col-40{width:40%;}
-.col-50{width:50%;}
+
 /* Utilidades */
 .reset-ul{
 	padding:0;
@@ -227,144 +135,34 @@ a.btn-v3:hover {
 /* ================================== */ 
 /* ======= FOOTER PRINCIPAL ========= */
 /* ================================== */ 
-div#footer {
-    background: #001214;
-	padding:10px 0;
-}
-div#footer .container {
-    position: relative;
-}
-.redes-footer{
-    text-align:right;
-	margin-bottom:20px;
-}
-.redes-footer i {
-    margin: 0px 2px;
-	font-size:1.3em;
-	color:#fff!important;
-}
-.datos-footer {
-	color:#fff;
-	font-size:13px;
-}
-.datos-footer i {
-    color: #bb0724;
-    margin-left: 30px;
-}
-.copy a{color:#848484;}
-.copy {
-    text-align: center;
-    padding: 13px 15px 10px;
-    margin: 0;
-    background-color: rgba(0, 18, 20, 0.95);
-    vertical-align: sub;
-    font-size: 12px;
-}   
+
+
+
 /* Responsive */
+
+
 /* max width */
 @media (max-width:899px){
 	
 }
 @media (max-width:766px){
 	
-	/* footer */
-	img.logo-footer {
-		display: block;
-		margin: 0 auto 20px;
-	}
-	.datos-footer {
-		text-align: center;
-	}
 	
-	.redes-footer {
-		text-align: center;
-	}
-	
-	.datos-footer i {
-		margin-left: 10px;
-		margin-right: 10px;
-	}
 }
 @media (max-width:650px){
-	/* Header */
-	img.custom-logo {
-		max-width: 180px;
-	}
 	
-	.wrap-top span.tel-top {
-		margin-left: 15px;
-	}
-	.redes-top {
-		display: none;
-	}
-	.datos-top {
-		font-size: 12px;
-		text-align: center;
-		width: 100%;
-	}	
 }
 /* min-width */
 @media (min-width:550px){
 }
 @media (min-width:650px){
-	body{
-		font-size:15px;   
-	}
-	nav.menu-principal-container {
-		top:38px;
-	}
+	
 }
 @media (min-width:767px){
-	.datos-footer {
-		position: absolute;
-		bottom: 5px;
-		right: 15px;
-		color: #fff;
-		font-size: 1em;
-	}
+	
 }
 	
 @media (min-width:991px){
 	
-	/* Menu */
-	html.menu-open {
-		overflow: auto;
-	}
 	
-	nav.menu-principal-container {
-		display:block;
-		position: absolute;
-		top: 133px;  
-		z-index: 999;
-		background: rgba(255, 255, 255, 0.9);
-		width: 100%;
-		height:auto;
-	}
-	
-	.stykie-header nav.menu-principal-container {
-		top: 38px;
-	}
-		
-	.menu-interactivos li{
-		display:inline-block;
-	}
-	
-	.menu-interactivos > li > a {
-		padding: 17px 25px 9px;
-	}
-	
-	.menu-interactivos > li > a:hover, 
-	.menu-interactivos > li.current-menu-item > a {
-		border-bottom-color: #bb0724;
-		background: #dadada;
-	}
-	
-	i.menu-btn {
-		display: none;
-	}
-	
-	/* footer */
-	.datos-footer {
-		font-size: 1.1em;
-	}
 } 
